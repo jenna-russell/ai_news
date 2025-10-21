@@ -1,4 +1,4 @@
-# AI News Audit
+# AI Use in American Newspapers
 
 <!-- [![arxiv](https://img.shields.io/badge/arXiv-2406.17560-b31b1b.svg)](https://arxiv.org/abs/2406.17560) -->
 
