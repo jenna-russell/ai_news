@@ -16,7 +16,7 @@ Despite this prevalence, we find that AI use is rarely disclosed: a manual audit
 
 ## 💻 Code
 
-**Code coming soon!** The source code for this analysis platform will be released shortly.
+**Code coming soon!** 
 
 ## 🔍 What This Site Does
 
