@@ -1,8 +1,10 @@
 # AI Use in American Newspapers
 
-<!-- [![arxiv](https://img.shields.io/badge/arXiv-2406.17560-b31b1b.svg)](https://arxiv.org/abs/2406.17560) -->
+<!-- [![arxiv](https://img.shields.io/badge/arXiv-2510.18774-b31b1b.svg)](https://arxiv.org/abs/2510.18774) -->
 
-This repo hosts `AI News Audit` ([AI use in American newspapers is widespread, uneven, and rarely disclosed]()), analyzing  **250,000+ news articles** to detect and track AI-generated content across different media sources.
+
+
+This repo hosts `AI News Audit` ([AI use in American newspapers is widespread, uneven, and rarely disclosed](https://arxiv.org/abs/2510.18774)), analyzing  **250,000+ news articles** to detect and track AI-generated content across different media sources.
 
 🌐 **Website**: [https://ainewsaudit.github.io/](https://ainewsaudit.github.io/)
 
