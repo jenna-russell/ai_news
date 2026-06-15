@@ -16,6 +16,12 @@ This repo hosts `AI News Audit` ([AI use in American newspapers is widespread, u
 AI is rapidly transforming journalism, but the extent of its use in published U.S. newspaper articles remains unclear. We address this gap by auditing a large-scale dataset of 186K articles from 1.5K American newspapers published in the summer of 2025. Using Pangram, a state-of-the-art AI detector, we discover that approximately 9\% of newly-published articles are either partially or fully AI-generated. This AI use is unevenly distributed, appearing more frequently in smaller, local outlets, in specific topics such as weather and technology, and within certain ownership groups. We also analyze 45K opinion pieces from **Washington Post**, **New York Times**, and  **Wall Street Journal**, finding that they are 6.4 times more likely to contain AI-generated content than news articles from the same publications, with many AI-flagged op-eds authored by prominent public figures. 
 Despite this prevalence, we find that AI use is rarely disclosed: a manual audit of 100 AI-flagged articles found only five disclosures of AI use. Overall, our audit highlights the immediate need for greater transparency and updated editorial standards regarding the use of AI in journalism to maintain public trust.
 
+## 🔄 Recent Updates
+
+**June 2026 — New data & upgraded models.** We refreshed all datasets with articles published through June 2026 and re-ran our analysis with newer models: AI detection now uses [Pangram 3.3](https://www.pangram.com/), and topic classification uses the Qwen 3.5 language model. The full **Opinions** dataset (53,138 articles) has been re-scored and re-tagged, and **Recent News** has been updated with the same pipeline. The [statistics page](https://ainewsaudit.github.io/dataset.html) now includes additional visualizations: AI & Mixed rate by newspaper and by topic, the distribution of detector scores, how much of each flagged piece is AI, and a month-by-month trend with a count/share toggle.
+
+**Collection change — New York Times (November 2025).** Beginning in November 2025, we collect New York Times articles via ProQuest rather than RSS feeds. The RSS feeds surfaced only a limited slice of coverage (roughly the top ~20 stories at a time), while ProQuest is far more comprehensive. As a result, the number of NYT articles in **Recent News** rises sharply after November 2025, so aggregate trends and AI/Mixed rates from late 2025 onward are weighted more toward the *New York Times* than in earlier periods. NYT volume in the **Opinions** dataset is comparable across the change, but the specific set of captured articles shifts. We flag this directly on the statistics page; keep it in mind when comparing predictions before and after November 2025.
+
 ## 💻 Code
 
 **Code coming soon!** 
@@ -24,9 +30,11 @@ Despite this prevalence, we find that AI use is rarely disclosed: a manual audit
 
 This platform helps you understand the prevalence of AI-generated content in news media by analyzing articles from our three datasets:
 
-- **Recent News**: 186,512 articles from various news sources
-- **Opinions**: 44,803 opinion pieces and editorials from WSJ, NYT, and WaPo  
+- **Recent News**: 183,043 articles from various news sources
+- **Opinions**: 53,138 opinion pieces and editorials from WSJ, NYT, and WaPo  
 - **Reporters**: 20,131 articles from reporter-specific sources
+
+_Counts as of June 2026; see [Recent Updates](#-recent-updates). Recent News continues to be refreshed._
 
 Our data was collected from publicly accessible newspaper sites, either through RSS feeds or available archives. Given the sensitivity of large-scale text collection, we do not release the complete article texts, but instead provide metadata to respect the rights of content owners.
 
