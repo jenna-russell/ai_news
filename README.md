@@ -1,12 +1,15 @@
 # AI Use in American Newspapers
 
 [![arxiv](https://img.shields.io/badge/arXiv-2510.18774-b31b1b.svg)](https://arxiv.org/abs/2510.18774)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Datasets-yellow.svg)](https://huggingface.co/datasets/jjrussell10/ainews-recent-news)
 
 
 
 This repo hosts `AI News Audit` ([AI use in American newspapers is widespread, uneven, and rarely disclosed](https://arxiv.org/abs/2510.18774)), analyzing  **250,000+ news articles** to detect and track AI-generated content across different media sources.
 
 🌐 **Website**: [https://ainewsaudit.github.io/](https://ainewsaudit.github.io/)
+
+🤗 **HuggingFace datasets**: [Recent News](https://huggingface.co/datasets/jjrussell10/ainews-recent-news) · [Opinions](https://huggingface.co/datasets/jjrussell10/ainews-opinions) (article-level AI-detection + topic labels; author bylines anonymized)
 
 `Authors`: [Jenna Russell](https://jenna-russell.github.io/), [Marzena Karpinska](https://marzenakrp.github.io/), [Destiny Akinode](https://www.linkedin.com/in/destiny-akinode/), [Katherine Thai](https://katherinethai.github.io/), [Bradley Emi](https://www.bradleyemi.com/), [Max Spero](https://www.pangram.com/about-us), and [Mohit Iyyer](https://www.cs.umd.edu/~miyyer/)
 
